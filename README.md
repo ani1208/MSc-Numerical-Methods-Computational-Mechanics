@@ -1,5 +1,5 @@
 
-# 1D Non-Linear FE Solver: Damage & Plasticity
+# Non-Linear FE Solver: Damage & Plasticity
 
 Python-based finite element solver for simulating elasto-viscoplasticity and material damage in 1D structural elements.
 
