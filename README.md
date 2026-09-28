@@ -1,9 +1,8 @@
 
-## FE Implementation for Non-linear Material Response : Damage & Plasticity
+## Documents related to master's degree in Numerical methods in engineering 
 
-Python-based finite element solver for simulating elasto-viscoplasticity and material damage in 1D structural elements.
+* **Damage models:** FE implementation for 1D Damage models.
+* **Plasticity models:** FE implementation for 1D Plasticity models.
+* **Master thesis:** Dissertation and code of the thesis work.
 
-##  Features
-* **Newton-Raphson Solver:** Iterative scheme for non-linear global equilibrium.
-* **Constitutive Laws:** Implements isotropic damage and elasto-viscoplastic models.
-* **State Management:** Tracks internal variables and history-dependent material states.
+
