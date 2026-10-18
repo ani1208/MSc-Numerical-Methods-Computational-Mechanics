@@ -7,7 +7,7 @@ $$
 $$
 
 <p align="center">
-   <img width="1769" height="1734" alt="geom_square" src="https://github.com/user-attachments/assets/f0e69fba-fa7f-49be-8d84-2e53b78ef571" />
+  <img width="300" alt="geom_square" src="https://github.com/user-attachments/assets/f0e69fba-fa7f-49be-8d84-2e53b78ef571" />
   <br><em>Computational domain</em>
 </p>
 
