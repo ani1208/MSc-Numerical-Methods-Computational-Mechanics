@@ -39,7 +39,7 @@ The thesis is presented as a compendium of case studies to understand the capabi
 | 5 | RANS on an S-shaped duct (Re = 10⁶) | Literature [ref] |
 | 6 | RANS on an inclined backward-facing step (Re = 36,000) | Literature [ref] |
 
-> **Note:** Only the heat equation benchmark was generated in this work, using the finite element method (FEM) in FEniCS; the code is in the [`FEM`](.fem) folder. The Burgers' benchmark is taken from DeepXDE itself, the convection–diffusion benchmark was computed in Wolfram Mathematica, and the benchmarks for the remaining three cases are taken from the literature.
+> **Note:** Only the heat equation benchmark was generated in this work, using the finite element method (FEM) in FEniCS. The Burgers' benchmark is taken from DeepXDE itself, the convection–diffusion benchmark was computed in Wolfram Mathematica, and the benchmarks for the remaining three cases are taken from the literature.
 
 ---
 
