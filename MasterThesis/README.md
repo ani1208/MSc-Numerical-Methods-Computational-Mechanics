@@ -24,7 +24,7 @@ The thesis is presented as a compendium of case studies to understand the capabi
 
 1. PINNs performed fairly well on simpler PDEs, with excellent approximation accuracy.
 2. Problems arise when complex PDEs like Navier–Stokes and RANS are encountered, where performance suffers. This indicates the inability of vanilla PINNs to approximate flow fields without additional sophistication.
-3. Hence, additional methods and techniques from the literature were used to capture flow separation, boundary layers and recirculation bubbles, and to get the physics right.
+3. Hence, additional methods and techniques from the literature were used to capture flow separation, boundary layers and recirculation bubbles, and to get the physics right, while the accuracy still needs improvement, which can be aimed to improve by more sophisticated techniques such as Random weight factorization, SOAP optimizer, Residual Adaptive networks.
 
 ---
 
@@ -32,12 +32,12 @@ The thesis is presented as a compendium of case studies to understand the capabi
 
 | # | Case study | Benchmark solution |
 |---|---|---|
-| 1 | Burgers' equation (1D) | DeepXDE reference dataset |
-| 2 | Heat equation (2D) | FEM solution using FEniCS ([code](.fem)) |
-| 3 | Convection–diffusion (2D) | Wolfram Mathematica |
-| 4 | Navier–Stokes on a backward-facing step (Re = 389) | Literature [ref] |
-| 5 | RANS on an S-shaped duct (Re = 10⁶) | Literature [ref] |
-| 6 | RANS on an inclined backward-facing step (Re = 36,000) | Literature [ref] |
+| 1 | Burgers' equation (1D) ([code](.pinn/burgers)) | DeepXDE reference dataset [here](https://github.com/lululxvi/deepxde/blob/master/examples/dataset/Burgers.npz)|
+| 2 | Heat equation (2D) ([code](.fem)) | FEM solution using FEniCS ([code](.fem)) |
+| 3 | Convection–diffusion (2D) ([code](.fem)) | Wolfram Mathematica ([code](.fem)) |
+| 4 | Navier–Stokes on a backward-facing step (Re = 389) ([code](.fem)) | Literature [ref] |
+| 5 | RANS on an S-shaped duct (Re = 10⁶) ([code](.fem)) | Literature [ref] |
+| 6 | RANS on an inclined backward-facing step (Re = 36,000) ([code](.fem)) | Literature [ref] |
 
 > **Note:** Only the heat equation benchmark was generated in this work, using the finite element method (FEM) in FEniCS. The Burgers' benchmark is taken from DeepXDE itself, the convection–diffusion benchmark was computed in Wolfram Mathematica, and the benchmarks for the remaining three cases are taken from the literature.
 
@@ -45,7 +45,7 @@ The thesis is presented as a compendium of case studies to understand the capabi
 
 ## Implementation
 
-**Library:** [DeepXDE](https://github.com/lululxvi/deepxde) (PyTorch backend)
+**Library:** [DeepXDE](https://deepxde.readthedocs.io/en/latest/#) (PyTorch backend)
 
 **Techniques used:**
 
