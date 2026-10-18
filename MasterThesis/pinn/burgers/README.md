@@ -23,5 +23,5 @@ $$
 # Results
 
 <p align="center">
-  <img width="7442" height="2608" alt="pinns" src="https://github.com/user-attachments/assets/a77be289-b790-458b-a4c5-d106fbf65e80" />
+  <img width="1000" alt="pinns" src="https://github.com/user-attachments/assets/a77be289-b790-458b-a4c5-d106fbf65e80" />
 </p>
