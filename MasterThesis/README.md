@@ -32,8 +32,8 @@ The thesis is presented as a compendium of case studies to understand the capabi
 
 | # | Case study | Benchmark solution |
 |---|---|---|
-| 1 | Burgers' equation (1D) ([code](.pinn/burgers)) | DeepXDE reference dataset [here](https://github.com/lululxvi/deepxde/blob/master/examples/dataset/Burgers.npz)|
-| 2 | Heat equation (2D) ([code](.fem)) | FEM solution using FEniCS ([code](.fem)) |
+| 1 | Burgers' equation (1D) ([code](./pinn/burgers)) | DeepXDE reference dataset [here](https://github.com/lululxvi/deepxde/blob/master/examples/dataset/Burgers.npz)|
+| 2 | Heat equation (2D) ([code](./pinn/heat2d)) | FEM solution using FEniCS ([code](./fem)) |
 | 3 | Convection–diffusion (2D) ([code](.fem)) | Wolfram Mathematica ([code](.fem)) |
 | 4 | Navier–Stokes on a backward-facing step (Re = 389) ([code](.fem)) | Literature [ref] |
 | 5 | RANS on an S-shaped duct (Re = 10⁶) ([code](.fem)) | Literature [ref] |
