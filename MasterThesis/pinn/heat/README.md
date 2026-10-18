@@ -30,7 +30,7 @@ $$
 | Left, right, bottom | $u(0,y,t) = u(1,y,t) = u(x,0,t) = 0$ |
 | Top ($y = 1$) | $\left.\dfrac{\partial u}{\partial y}\right\|_{y=1} = 0$ |
 
-# Heat Equation (2D): Results
+# Results
 
 <table>
   <tr>
