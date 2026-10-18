@@ -1,7 +1,13 @@
-Heat Equation in 2D solved using FEniCS 
+# Heat Equation 2D
 
-<img width="257" height="246" alt="heat1" src="https://github.com/user-attachments/assets/5972b8e4-5fea-4343-9053-936e14ff7868" />
-<img width="422" height="325" alt="heat2" src="https://github.com/user-attachments/assets/5205301c-bfef-4817-b631-c455290a6534" />
+## Codes for solving heat equation in 2D over a square domain using FEniCS for benchmarking against PINNs
+
+
+
+<img width="413" height="133" alt="heat2" src="https://github.com/user-attachments/assets/ff714cb8-575e-451e-a183-1e90d6b2052f" />
+<img width="257" height="246" alt="heat1" src="https://github.com/user-attachments/assets/eaebf2e8-99f1-434b-b042-9a35844c2d17" />
+<img width="413" height="185" alt="heat3" src="https://github.com/user-attachments/assets/a3463aef-f0ab-4be7-95fc-94aa818ba0a1" />
+
 
 
 
