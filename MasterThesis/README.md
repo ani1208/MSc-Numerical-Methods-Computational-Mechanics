@@ -33,11 +33,11 @@ The thesis is presented as a compendium of case studies to understand the capabi
 | # | Case study | Benchmark solution |
 |---|---|---|
 | 1 | Burgers' equation (1D) ([code](./pinn/burgers)) | DeepXDE reference dataset ([data](https://github.com/lululxvi/deepxde/blob/master/examples/dataset/Burgers.npz)) |
-| 2 | Heat equation (2D) ([code](./pinn/heat2d)) | FEM solution using FEniCS ([code](./fem)) |
-| 3 | Convection–diffusion (2D) ([code](./pinn/convdiff2d)) | Wolfram Mathematica |
-| 4 | Navier–Stokes on a backward-facing step (Re = 389) ([code](./pinn/ns_bfs)) | Literature [ref] |
-| 5 | RANS on an S-shaped duct (Re = 10⁶) ([code](./pinn/rans_sduct)) | Literature [ref] |
-| 6 | RANS on an inclined backward-facing step (Re = 36,000) ([code](./pinn/rans_inclined_bfs)) | Literature [ref] |
+| 2 | Heat equation (2D) ([code](./pinn/heat)) | FEM solution using FEniCS ([code](./fem)) |
+| 3 | Convection–diffusion (2D) ([code](./pinn/convdiff)) | Wolfram Mathematica ([data](https://demonstrations.wolfram.com/SteadyStateTwoDimensionalConvectionDiffusionEquation/))|
+| 4 | Navier–Stokes on a backward-facing step (Re = 389) ([code](./pinn/bfs)) | [Paper](https://www.researchgate.net/publication/232005183_Experimental_and_theoretical_investigation_of_backward-facing_step_flow) |
+| 5 | RANS on an S-shaped duct (Re = 10⁶) ([code](./pinn/sduct)) | [Paper](https://www.researchgate.net/publication/226501405_Analysis_of_Three-Dimensional_Turbulent_Flow_in_an_S-Shaped_Rectangular_Channel) |
+| 6 | RANS on an inclined backward-facing step (Re = 36,000) ([code](./pinn/inclinedbfs)) | [Paper](https://www.sciencedirect.com/science/article/pii/S0142727X13001409) |
 
 > **Note:** Only the heat equation benchmark was generated in this work, using the finite element method (FEM) in FEniCS. The Burgers' benchmark is taken from DeepXDE itself, the convection–diffusion benchmark was computed in Wolfram Mathematica, and the benchmarks for the remaining three cases are taken from the literature.
 
