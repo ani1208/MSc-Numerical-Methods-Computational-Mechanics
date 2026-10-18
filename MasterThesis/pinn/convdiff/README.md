@@ -3,7 +3,7 @@
 PINN approximation for the steady convection–diffusion equation in 2D
 
 $$
-u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y} = \frac{1}{Re \, Pr} \left( \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} \right), \qquad (x, y) \in [0, 1] \times [0, 2]
+u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y} = \frac{1}{Re * Pr} \left( \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} \right), \qquad (x, y) \in [0, 1] \times [0, 2]
 $$
 
 <p align="center">
