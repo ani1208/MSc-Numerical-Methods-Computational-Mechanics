@@ -1,6 +1,6 @@
 # Physics-Informed Neural Networks (PINNs) for Solving RANS Equations in Duct Flows
 
-> **Master's thesis** · 📄 [Thesis report](https://example.com/thesis-report.pdf)
+> **Master's thesis** · 📄 [Thesis report](https://drive.google.com/file/d/1hC83y-1TZ6ct5yazpzPKlg-hB2ERsEXS/view?usp=drive_link)
 
 This repository contains the code for approximating the Reynolds-averaged Navier–Stokes (RANS) equations in ducted geometries, as an attempt to model the turbulent flows occurring in aerospace duct geometries and turbomachinery.
 
@@ -56,4 +56,4 @@ The thesis is presented as a compendium of case studies to understand the capabi
 | 3 | Pseudo-time stepping to avoid spurious/trivial solutions | [Paper](https://arxiv.org/abs/2604.23528) |
 | 4 | Curriculum training | [Paper](https://arxiv.org/abs/2109.01050) |
 
-> 📄 Refer to the [thesis report](https://example.com/thesis-report.pdf) for a detailed understanding of the methods.
+> 📄 Refer to the [thesis report](https://drive.google.com/file/d/1hC83y-1TZ6ct5yazpzPKlg-hB2ERsEXS/view?usp=drive_link) for a detailed understanding of the methods.
