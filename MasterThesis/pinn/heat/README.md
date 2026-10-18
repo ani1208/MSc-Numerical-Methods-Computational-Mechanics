@@ -38,7 +38,7 @@ $$
     <th>Mixed case</th>
   </tr>
   <tr>
-    <td><img width="2062" height="1706" alt="step_pinn_1 000" src="https://github.com/user-attachments/assets/160f4282-63ed-4d64-b7b7-9732c7f1dd76" />
-    <td><img width="1998" height="1728" alt="step_pinn_1 000 (1)" src="https://github.com/user-attachments/assets/23058003-e2ca-4dcf-93d3-81bc5c7d0b0a" />   
+    <td><img width="300" alt="step_pinn_1 000" src="https://github.com/user-attachments/assets/160f4282-63ed-4d64-b7b7-9732c7f1dd76" />
+    <td><img width="300" alt="step_pinn_1 000 (1)" src="https://github.com/user-attachments/assets/23058003-e2ca-4dcf-93d3-81bc5c7d0b0a" />   
   </tr>
 </table>
