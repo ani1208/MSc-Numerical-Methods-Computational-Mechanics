@@ -10,7 +10,7 @@ The thesis is presented as a compendium of case studies to understand the capabi
 
 ## Motivation
 
-1. To be able to model flow problems (in the context of aerospace turbomachinery and engine intakes) quickly and draw insights, for which a deep learning method, the PINN, can be used.
+1. To be able to model flow problems (in the context of aerospace turbomachinery and engine intakes) quickly and draw insights, for which the deep learning method, PINNs can be used.
 2. Can PINNs act as alternatives to traditional PDE solvers? That is, without using data, can PINNs predict flows accurately?
 
 ## Research Questions
